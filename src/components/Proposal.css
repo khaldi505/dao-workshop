@@ -1377,3 +1377,20 @@ body {
     height: 254px;
   }
 }
+
+
+.CreateProposal form{
+  min-height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+

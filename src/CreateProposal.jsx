@@ -1,8 +1,12 @@
 import React from 'react'
+import './style/CreateProposal.css'
+
 
 const CreateProposal = () => {
+
   return (
-    <div className='CreateProposal'>
+    <div className='CreateProposal d-flex flex-column justify-content-center align-items-center '>
+        <h3>Create Propsal</h3>
         <form>
         <label>
         Fund Type
@@ -25,10 +29,10 @@ const CreateProposal = () => {
         Duration
         <input type="date" name="Duration" id="Duration" />
     </label>    
-        <input type="submit" value="Submit" />
+        <input type="submit" className='btn btn-primary' value="Submit" />
         </form>
     </div>
   )
 }
 
-export default CreateProposal
+export default CreateProposal;

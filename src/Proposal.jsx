@@ -1,23 +1,19 @@
-import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-
-
-const Proposal = () => {
+function Proposal() {
   return (
-<Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card style={{ width: '18rem' }}>      
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Propsal Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Propasl description
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Up Vote</Button>
+        <Button variant="danger">Down Vote</Button>
       </Card.Body>
     </Card>
-  )
+  );
 }
 
-export default Proposal
+export default Proposal;
