@@ -1,5 +1,5 @@
 import React from 'react'
-import './style/CreateProposal.css'
+import './components/CreateProposal.css'
 
 
 const CreateProposal = () => {
