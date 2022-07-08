@@ -1,11 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import CreateProposal from './CreateProposal';
+import "./App.css";
+import CreateProposal from "./CreateProposal";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Homepage from "./Homepage";
+
 function App() {
-  console.log('okay')
+  console.log("okay");
   return (
     <div className="App">
-      <CreateProposal/>
+      <Router>
+        <Route path="/" exact component={Homepage} />
+        <Route path="/newproposal" exact component={CreateProposal} />
+      </Router>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import React, { useState } from "react";
 const Homepage = () => {
     // From where we get the proposals
